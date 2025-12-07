@@ -2,6 +2,8 @@ import { expect } from "chai";
 import at from "../src/at.js";
 
 describe("at()", () => {
+
+  // pick values from object paths
   it("should pick values from deep object paths", () => {
     const object = { a: [{ b: { c: 3 } }, 4] };
 
